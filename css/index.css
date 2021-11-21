@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://image.freepik.com/free-vector/cat-seamless-pattern-background_42349-63.jpg);
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: linear-gradient(rgb(43, 45, 48), rgb(129, 127, 127)  )
+
+}
+.menu li {
+  display: inline-block;
+}
+
+.menu li:after {
+  content: "|";
+  color: #9e7e7e;
+  display: inline-block;
+  vertical-align:top;
+  font-size: 37px;
+}
+  
+.menu a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 37px;
+  color: #D9470D;
+  display: inline-block;
+}
+.menu a:hover {
+  color: #feb386;
+}
+
+marquee{
+  color: #D9470D;
+  font-size: 100px;
+  font-weight: bolder;
+  text-shadow: #292727 1px 5px 5px;
+}
+
+.back {
+  transform: scaleX(-1);
+}
+
+.size-marq{
+ height: 75vh;
+ width: 99%;
+}
+.container
+{
+  display: grid;
+  background: linear-gradient(to bottom, rgb(6, 108, 100),  rgb(14, 48, 122));
+  width: 450px;
+  height: 580px;
+  margin: 3% auto;
+  border-radius: 20px;
+}
+
+.login-signup
+{
+  text-align: center;
+  color:  white;
+}
+
+.input-field
+{
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 7px;
+  width: 250px;
+
+}
+
+.signup-button{
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  width: 250px;
+  background-color: rgb(56, 189, 149);
+}
+.signup-button:hover {
+  background-color: rgb(50, 165, 170);
+}
+
+.login-button{
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  width: 250px;
+  background-color: rgb(56, 102, 189);
+}
+
+.login-button:hover {
+  background-color: rgb(50, 110, 150);
+}
+
+footer
+{
+    position:absolute;
+    bottom:0;
+    margin: 0;
+    text-align:center;
+    color: #D9470D;
+    width:100%;
+    padding:  30px 0 10px;
+    background:  linear-gradient(rgb(129, 127, 127) ,rgb(43, 45, 48) );
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+    text-align:center;
+    font-weight: bold;
+    font-size: 37px;
+    color: #D9470D;
+}
+
+.help
+{
+    color: white;
+
+    background:  linear-gradient(to bottom, rgb(6, 108, 100),  rgb(14, 48, 122));
+}
